@@ -1,3 +1,9 @@
+	    ;			///SCHOOL OF LINUX///
+
+
+;author "Jeevanandham.P.S"///
+	    
+	    
 	    AREA SAMPLE,CODE,READONLY
             ENTRY
 	    MOV R10,#0X00000005
@@ -12,4 +18,3 @@ ARM_STATE   DCD 0X0F0F0F0F,0X00001111,0X11110000,0X10101010,0X11112222
 	    AREA SAMPLE,DATA,READWRITE
 ARM_ST      DCD 0	
 	    END
-		
