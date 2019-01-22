@@ -1,4 +1,10 @@
- 		AREA ARRAY,CODE,READONLY
+;			///SCHOOL OF LINUX///
+
+
+;author "Jeevanandham.P.S"/// 	
+	
+	
+		AREA ARRAY,CODE,READONLY
 		ENTRY
 		MOV R5,#5
 		MOV R6,#1
