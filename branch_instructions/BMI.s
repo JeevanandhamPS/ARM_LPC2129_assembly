@@ -1,0 +1,9 @@
+	AREA INS,CODE,READONLY
+	ENTRY
+	MOV R1,#0X00	; move value to R1
+	MOV R2,#0X00	; move value to R2
+LOOP
+	SUBS R1,R2		; R1 = R1 - R2
+	BMI LOOP		; When the CPSR set the negative bit, that it this contdition true.. call the label
+LP	B LP			; branch always
+	END
